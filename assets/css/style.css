@@ -49,11 +49,19 @@ nav {
 
 main {
   width: 75%;
+  float: right;
 }
 
 aside {
-  
-  width: 25%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero {
+  height: 13rem;
+  width: 100%;
+  flex: 1;
 }
 
 .header-name {
@@ -65,39 +73,71 @@ aside {
   padding: .5% 2% .5% 0;
 }
 
+.intro {
+  display: flex;
+  margin: 1.5% 1.5% 1.5% 2.5%;
+}
+
 .content {
   width: 75%;
 }
 
 .project-main {
+  display: flex;
+  justify-content: center;
+
 }
 
+.project-main-card {
+  flex: 0 1 95.5%;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: var(--dkblue);
+  margin: 1.5%;
+
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  flex: 0 1 46%;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: var(--dkblue);
+  margin: 1.5%;
+}
 .picture-main {
   width: 100%;
 }
 
-.picture-one {
-  width: 50%;
-}
-
-.picture-two {
-  width: 50%
-}
-
-.picture-three {
-  width: 50%
-}
-
-.picture-four {
-  width: 50%
+.picture-card {
+  width: 100%;
 }
 
 .aside {
   width: 25%;
+  height: 100%;
   float: left;
-  height: 75%;
   background-color: var(--ltblue);
+}
+
+.mypic {
+  display: inline;
+  width: 90%;
+  height: 17rem;
+  padding-left: 10%;
+  
 }
 .text-underline {
   text-decoration: underline;
+}
+
+.text-right {
+  text-align: right;
+  margin-right: 4%;
 }
