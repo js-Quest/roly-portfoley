@@ -13,6 +13,7 @@
   margin: 0;
   font-family:Geneva, Tahoma, sans-serif;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,8 +24,8 @@ body {
 }
 
 header {
-background-color: lightblue;
-padding: 1% 2% 1.5% 0%;
+  background-color: lightblue;
+  padding: 1% 2% 1.5% 0%;
 }
 
 header h1 {
@@ -46,13 +47,13 @@ nav {
   margin-top: 2%;
 }
 
-.hero {
-  height: 400px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: IMAGE;
-  background-size: cover;
-  background-position: center;
+main {
+  width: 75%;
+}
+
+aside {
+  
+  width: 25%;
 }
 
 .header-name {
@@ -64,11 +65,39 @@ nav {
   padding: .5% 2% .5% 0;
 }
 
+.content {
+  width: 75%;
+}
 
+.project-main {
+}
 
+.picture-main {
+  width: 100%;
+}
 
+.picture-one {
+  width: 50%;
+}
 
+.picture-two {
+  width: 50%
+}
 
+.picture-three {
+  width: 50%
+}
+
+.picture-four {
+  width: 50%
+}
+
+.aside {
+  width: 25%;
+  float: left;
+  height: 75%;
+  background-color: var(--ltblue);
+}
 .text-underline {
   text-decoration: underline;
 }
