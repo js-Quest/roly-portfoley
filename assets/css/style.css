@@ -1,3 +1,13 @@
+:root {
+--white: whitesmoke;
+--bisque: bisque;
+--ltblue: lightblue;
+--dkblue: rgb(29, 97, 120);
+--dkgrey: rgb(59, 59, 59);
+}
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -8,19 +18,32 @@
 body {
   position: relative;
   font-size: 20px;
-  background-color: bisque;
-  color: rgb(59, 59, 59);
+  background-color: var(--bisque);
+  color: var(--dkgrey);
 }
 
 header {
 background-color: lightblue;
-padding: 1% 2% 5% 0%;
+padding: 1% 2% 1.5% 0%;
+}
+
+header h1 {
+  color: var(--white);
+  text-align: right;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  justify-content: space-around;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-top: 2%;
 }
 
 .hero {
@@ -32,20 +55,13 @@ nav {
   background-position: center;
 }
 
-.header {
+.header-name {
   font-size: 20px;
   float: left;
   box-sizing: border-box;
   width: 350px;
   background-color: rgb(29, 97, 120);
   padding: .5% 2% .5% 0;
-}
-
-.text-white {
-color: white;
-}
-header li {
-display: inline-block;
 }
 
 
@@ -55,12 +71,4 @@ display: inline-block;
 
 .text-underline {
   text-decoration: underline;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-left {
-  text-align: left;
 }
