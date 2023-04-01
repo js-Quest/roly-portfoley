@@ -26,6 +26,7 @@ body {
 header {
   background-color: lightblue;
   padding: 1% 2% 1.5% 0%;
+  flex: 1;
 }
 
 header h1 {
@@ -50,12 +51,22 @@ nav {
 main {
   width: 75%;
   float: right;
+  flex: 1;
 }
 
 aside {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+footer {
+  flex: 1;
+  float: right;
+  display: block;
+  width: 75%;
+  margin-top: 3%;
+  padding-bottom: 3%;
 }
 
 .hero {
@@ -113,10 +124,12 @@ aside {
 }
 .picture-main {
   width: 100%;
+  height: 100%;
 }
 
 .picture-card {
   width: 100%;
+  height: 100%;
 }
 
 .aside {
@@ -127,11 +140,21 @@ aside {
 }
 
 .mypic {
-  display: inline;
+  display: block;
   width: 90%;
   height: 17rem;
-  padding-left: 10%;
+  border-style: solid;
+  border-color: var(--dkblue);
+  border-width: 0.3rem;
+  margin: 0 auto;
   
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
 }
 .text-underline {
   text-decoration: underline;
