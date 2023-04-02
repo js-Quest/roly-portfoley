@@ -61,41 +61,32 @@ nav {
   flex: 1;
 }
 
-main {
-  width: 75%;
-  float: right;
-  flex: 1;
-}
-
-aside {
-  width: 25%;
-  height: 100%;
-  float: left;
-  background-color: var(--ltblue);
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
 footer {
-  flex: 1;
-  float: right;
-  display: block;
-  width: 75%;
   margin-top: 3%;
   padding-bottom: 3%;
 }
 
 /* classes */
 
-.hero {
-  height: 13rem;
-  width: 100%;
-  flex: 1;
+.space-under {
+  margin: 0 0 1rem 0;
 }
+
+.container {
+  display: flex;
+}
+
+.left-container {
+  flex: 0 0 20%;
+}
+
 
 .hero-container {
   position:  relative;
+  background: url("../images/ATX skyline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 .text-block-hero {
@@ -110,7 +101,6 @@ footer {
 .header-name {
   font-size: 20px;
   float: left;
-  box-sizing: border-box;
   width: 350px;
   background-color: rgb(29, 97, 120);
   padding: .5% 2% .5% 0;
@@ -119,10 +109,6 @@ footer {
 .intro {
   display: block;
   margin: 1.5% 1.5% 1.5% 2.5%;
-}
-
-.content {
-  width: 75%;
 }
 
 .project-main {
@@ -138,6 +124,10 @@ footer {
   border-color: var(--dkblue);
   margin: 1.5%;
   position: relative;
+  background: url("../images/ATX skyline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px; 
 }
 
 .main-card-txtblock {
@@ -176,10 +166,6 @@ footer {
   padding-right: 20px;
 }
 
-.picture-main {
-  width: 100%;
-  height: 100%;
-}
 
 .picture-card {
   width: 100%;
@@ -196,14 +182,11 @@ footer {
   margin: 0 auto;
 }
 
-.aside {
-}
-
 .footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-end;
+  flex: 80%;
+  flex-wrap: wrap;
 }
 
 
