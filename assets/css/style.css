@@ -56,9 +56,13 @@ header ul {
 nav {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
   margin-top: 2%;
   flex: 1;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -68,8 +72,8 @@ footer {
 
 /* classes */
 
-.space-under {
-  margin: 0 0 1rem 0;
+.mypic {
+  padding-right: 2%;
 }
 
 .container {
@@ -78,6 +82,8 @@ footer {
 
 .left-container {
   flex: 0 0 20%;
+  margin: 1.5% 0;
+  border-right-style: solid;
 }
 
 
@@ -107,17 +113,26 @@ footer {
 }
 
 .intro {
-  display: block;
-  margin: 1.5% 1.5% 1.5% 2.5%;
-}
-
-.project-main {
   display: flex;
-  justify-content: center;
-
+  margin: 1.5% 1.5% 1.5% 2%;
+  flex: 0 1 80%;
 }
 
 .project-main-card {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 96%;
+  position: block;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: var(--dkblue);
+  margin: 2.5%;
+  height: 250px;
+  width: 95.5%;
+  position: relative;
+}
+
+/* .project-main-card {
   flex: 0 1 95.5%;
   border-style: solid;
   border-width: 0.3rem;
@@ -128,7 +143,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px; 
-}
+} */
 
 .main-card-txtblock {
   position: absolute;
@@ -140,7 +155,7 @@ footer {
   padding-right: 20px;
 }
 
-.project-cards {
+.project-small-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -154,6 +169,10 @@ footer {
   border-color: var(--dkblue);
   margin: 1.5%;
   position: relative;
+  background: url("../images/ATX skyline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
 }
 
 .project-card-txtblock {
@@ -172,21 +191,12 @@ footer {
   height: 100%;
 }
 
-.mypic {
-  display: block;
-  width: 90%;
-  height: 17rem;
-  border-style: solid;
-  border-color: var(--dkblue);
-  border-width: 0.3rem;
-  margin: 0 auto;
-}
-
 .footer {
   display: flex;
   justify-content: space-evenly;
   flex: 80%;
   flex-wrap: wrap;
+  margin: 2% 0;
 }
 
 
