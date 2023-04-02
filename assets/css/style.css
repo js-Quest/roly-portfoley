@@ -6,8 +6,6 @@
 --dkgrey: rgb(59, 59, 59);
 }
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -160,8 +158,6 @@ footer {
   border-color: var(--dkblue);
   margin: 1.5%;
   position: relative;
-  width: 300px;
-  height: 200px;
 }
 
 .project-card-block {
@@ -216,4 +212,13 @@ footer {
 .text-right {
   text-align: right;
   margin-right: 4%;
+}
+
+.highlight {
+  background-color: var(--ltblue);
+  display: inline-block;
+}
+
+.highlight img:hover {
+  opacity: .5;
 }
