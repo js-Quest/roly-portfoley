@@ -86,7 +86,7 @@ footer {
 
 /* classes */
 
-.mypic {
+.profilepic {
   padding-right: 2.5%;
   width: auto;
   height: auto;
@@ -94,7 +94,6 @@ footer {
   width: 70%;
   margin: auto;
   display: block;
-  
 }
 
 .container {
@@ -228,4 +227,8 @@ footer {
 
 .highlight img:hover {
   opacity: .5;
+}
+
+@media screen and (min-width: 1200px) {
+  .
 }
