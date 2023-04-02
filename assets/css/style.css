@@ -73,11 +73,20 @@ footer {
 /* classes */
 
 .mypic {
-  padding-right: 2%;
+  padding-right: 2.5%;
+  width: auto;
+  height: auto;
+  height: 65%;
+  width: 80%;
+  margin: auto;
+  display: block;
+  
 }
 
 .container {
   display: flex;
+  margin-right: 5%;
+  flex: 0 0 80%;
 }
 
 .left-container {
@@ -120,30 +129,22 @@ footer {
 
 .project-main-card {
   display: flex;
-  justify-content: center;
   flex: 0 1 96%;
   position: block;
   border-style: solid;
   border-width: 0.3rem;
   border-color: var(--dkblue);
-  margin: 2.5%;
+  margin: 1.5%;
   height: 250px;
-  width: 95.5%;
+  width: 97%;
   position: relative;
 }
 
-/* .project-main-card {
-  flex: 0 1 95.5%;
-  border-style: solid;
-  border-width: 0.3rem;
-  border-color: var(--dkblue);
-  margin: 1.5%;
-  position: relative;
-  background: url("../images/ATX skyline.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px; 
-} */
+.stretch-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
 .main-card-txtblock {
   position: absolute;
@@ -157,21 +158,17 @@ footer {
 
 .project-small-cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .card {
-  flex: 0 1 46%;
+  flex: 0 1 47%;
   border-style: solid;
   border-width: 0.3rem;
   border-color: var(--dkblue);
   margin: 1.5%;
   position: relative;
-  background: url("../images/ATX skyline.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 150px;
 }
 
@@ -186,10 +183,10 @@ footer {
 }
 
 
-.picture-card {
+/* .picture-card {
   width: 100%;
   height: 100%;
-}
+} */
 
 .footer {
   display: flex;
