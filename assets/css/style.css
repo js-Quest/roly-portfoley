@@ -160,6 +160,8 @@ footer {
   border-color: var(--dkblue);
   margin: 1.5%;
   position: relative;
+  width: 300px;
+  height: 200px;
 }
 
 .project-card-block {
