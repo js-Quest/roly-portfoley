@@ -111,7 +111,7 @@ footer {
 }
 
 .intro {
-  display: flex;
+  display: block;
   margin: 1.5% 1.5% 1.5% 2.5%;
 }
 
@@ -160,7 +160,7 @@ footer {
   position: relative;
 }
 
-.project-card-block {
+.project-card-txtblock {
   position: absolute;
   bottom: 20px;
   left: 0px;
@@ -216,7 +216,6 @@ footer {
 
 .highlight {
   background-color: var(--ltblue);
-  display: inline-block;
 }
 
 .highlight img:hover {
