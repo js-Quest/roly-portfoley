@@ -68,6 +68,10 @@ main {
 }
 
 aside {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: var(--ltblue);
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -81,6 +85,8 @@ footer {
   margin-top: 3%;
   padding-bottom: 3%;
 }
+
+/* classes */
 
 .hero {
   height: 13rem;
@@ -180,13 +186,6 @@ footer {
   height: 100%;
 }
 
-.aside {
-  width: 25%;
-  height: 100%;
-  float: left;
-  background-color: var(--ltblue);
-}
-
 .mypic {
   display: block;
   width: 90%;
@@ -195,13 +194,16 @@ footer {
   border-color: var(--dkblue);
   border-width: 0.3rem;
   margin: 0 auto;
-  
+}
+
+.aside {
 }
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 
