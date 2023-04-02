@@ -18,27 +18,41 @@
 
 body {
   position: relative;
-  font-size: 20px;
+  font-size: 1.2rem;
   background-color: var(--bisque);
   color: var(--dkgrey);
 }
 
 header {
   background-color: lightblue;
-  padding: 1% 2% 1.5% 0%;
+  padding: 1% 2% 2.5% 0%;
   flex: 1;
 }
 
-header h1 {
+h1 {
+  font-size: 2.6rem;
   color: var(--white);
   text-align: right;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 header ul {
   display: flex;
   flex-direction: row;
-  width: 35%;
-  justify-content: space-around;
+  width: 40%;
+  justify-content: space-between;
+  font-size: 1.1rem;
 }
 
 nav {
@@ -46,6 +60,7 @@ nav {
   justify-content: flex-end;
   align-items: flex-end;
   margin-top: 2%;
+  flex: 1;
 }
 
 main {
@@ -73,6 +88,19 @@ footer {
   height: 13rem;
   width: 100%;
   flex: 1;
+}
+
+.hero-container {
+  position:  relative;
+}
+
+.text-block-hero {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--dkblue);
+  color: var(--white);
+  padding: 0.4rem;
 }
 
 .header-name {
@@ -105,7 +133,17 @@ footer {
   border-width: 0.3rem;
   border-color: var(--dkblue);
   margin: 1.5%;
+  position: relative;
+}
 
+.main-card-txtblock {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  background-color: var(--dkblue);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .project-cards {
@@ -121,7 +159,19 @@ footer {
   border-width: 0.3rem;
   border-color: var(--dkblue);
   margin: 1.5%;
+  position: relative;
 }
+
+.project-card-block {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  background-color: var(--dkblue);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .picture-main {
   width: 100%;
   height: 100%;
@@ -154,8 +204,9 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
+
+
 .text-underline {
   text-decoration: underline;
 }
