@@ -17,6 +17,10 @@ a:hover {
   color: var(--dkblue);
 }
 
+/* li::first-line {
+  font-weight: bolder;
+} */
+
 * {
   padding: 0;
   margin: 0;
@@ -34,8 +38,7 @@ body {
 
 header {
   background-color: lightblue;
-  padding: 1% 2% 2.5% 0%;
-  flex: 1;
+  padding: 1% 2% 2% 0%;
 }
 
 h1 {
@@ -87,8 +90,8 @@ footer {
   padding-right: 2.5%;
   width: auto;
   height: auto;
-  height: 50%;
-  width: 80%;
+  height: 95%;
+  width: 70%;
   margin: auto;
   display: block;
   
@@ -112,7 +115,7 @@ footer {
   background: url("../images/ATX skyline.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 200px;
 }
 
 .text-block-hero {
@@ -159,7 +162,7 @@ footer {
 
 .main-card-txtblock {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 0px;
   background-color: var(--dkblue);
   color: white;
@@ -185,7 +188,7 @@ footer {
 
 .project-card-txtblock {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 0px;
   background-color: var(--dkblue);
   color: white;
@@ -202,7 +205,8 @@ footer {
 }
 
 .center {
-  margin: auto;
+  margin: 1% 0.7%;
+  width: 100%;
 }
 
 .text-underline {
