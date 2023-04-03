@@ -234,10 +234,9 @@ footer {
 /* media queries font sizes */
 
 @media screen and (min-width: 481px) {
-  
-}
-
-@media screen and (min-width: 769px) {
+  header ul {
+    width: 75%;
+  }
   nav ul li {
     font-size: 1.3rem;
   }
@@ -249,10 +248,33 @@ footer {
   }
 }
 
-@media screen and (min-width: 1095px) {
+@media screen and (min-width: 769px) {
+  header ul {
+    width: 75%;
+  }
   nav ul li {
     font-size: 1.3rem;
   }
+  .intro article h4 {
+    font-size: 1rem;
+  }
+  .footer h4 {
+    font-size: 1.2rem;
+  }
+}
+
+/* why does my intro text get bigger in responsive dev tool when i minimize the width */
+
+@media screen and (min-width: 1095px) {
+  header ul {
+    width: 60%;
+  }
+  nav ul li {
+    font-size: 1.3rem;
+  }
+.intro article h4 {
+  font-size: 1rem;
+}
   .footer h4 {
     font-size: 1.2rem;
   }
