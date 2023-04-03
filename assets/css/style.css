@@ -84,7 +84,6 @@ footer {
   margin-top: 3%;
   padding-bottom: 3%;
   font-size: 1rem;
-  flex: 1;
 }
 
 /* classes */
@@ -98,15 +97,16 @@ footer {
 }
 
 .profilepic img {
-  border-radius: 50%;
+  border-radius: 30%;
   height: 200px;
   width: 200px;
 }
 
 .container {
   display: flex;
-  margin-right: 5%;
   flex: 0 0 80%;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .left-container {
@@ -115,7 +115,6 @@ footer {
   border-right-style: solid;
   border-width: 3px;
 }
-
 
 .hero-container {
   position:  relative;
@@ -205,9 +204,10 @@ footer {
 .footer {
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
-  flex: 80%;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  flex: 0 1 80%;
+  /* flex-wrap: wrap; */
   margin: 2% 0;
 }
 
@@ -215,10 +215,10 @@ footer {
   margin: 1% 0.7%;
   width: 100%;
 }
-/* 
+
 .text-underline {
   text-decoration: underline;
-} */
+}
 
 .text-deco-none {
   text-decoration: none;
@@ -236,6 +236,14 @@ footer {
 
 .highlight img:hover {
   opacity: .5;
+}
+
+.large {
+  display: none;
+}
+
+.small {
+  display: block;
 }
 
 /* media queries font sizes */
@@ -271,6 +279,14 @@ footer {
   .footer h4 {
     font-size: 1.2rem;
   }
+
+  .large {
+    display: block;
+  }
+
+  .small {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -304,3 +320,4 @@ footer {
     font-size: 1.2rem;
   }
 }
+
