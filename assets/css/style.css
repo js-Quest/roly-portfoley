@@ -1,6 +1,6 @@
 :root {
 --white: whitesmoke;
---bisque: bisque;
+--bisque: rgb(250, 212, 166);
 --ltblue: lightblue;
 --dkblue: rgb(29, 97, 120);
 --dkgrey: rgb(59, 59, 59);
@@ -82,6 +82,7 @@ img {
 footer {
   margin-top: 3%;
   padding-bottom: 3%;
+  font-size: 1rem;
 }
 
 /* classes */
@@ -106,6 +107,7 @@ footer {
   flex: 0 0 20%;
   margin: 1.5% 0;
   border-right-style: solid;
+  border-width: 3px;
 }
 
 
@@ -197,6 +199,7 @@ footer {
 
 .footer {
   display: flex;
+  align-content: center;
   justify-content: space-evenly;
   flex: 80%;
   flex-wrap: wrap;
@@ -217,10 +220,6 @@ footer {
   margin-right: 4%;
 }
 
-/* .bold {
-  font-weight: 1000;
-} */
-
 .highlight {
   background-color: var(--ltblue);
 }
@@ -229,6 +228,6 @@ footer {
   opacity: .5;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 992px) {
   .
 }
