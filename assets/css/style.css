@@ -38,7 +38,7 @@ body {
 
 header {
   background-color: lightblue;
-  padding: 1% 2% 2% 0%;
+  padding: 1% 2% 2.5% 0%;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h4 {
 header ul {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 60%;
   justify-content: space-between;
   font-size: 1.1rem;
 }
@@ -91,10 +91,14 @@ footer {
   padding-right: 2.5%;
   width: auto;
   height: auto;
-  height: 95%;
-  width: 70%;
   margin: auto;
   display: block;
+}
+
+.profilepic img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 
 .container {
@@ -129,7 +133,6 @@ footer {
 }
 
 .header-name {
-  font-size: 20px;
   float: left;
   width: 350px;
   background-color: rgb(29, 97, 120);
@@ -228,6 +231,29 @@ footer {
   opacity: .5;
 }
 
-@media screen and (max-width: 992px) {
-  .
+/* media queries font sizes */
+
+@media screen and (min-width: 481px) {
+  
+}
+
+@media screen and (min-width: 769px) {
+  nav ul li {
+    font-size: 1.3rem;
+  }
+  .intro article h4 {
+    font-size: 1rem;
+  }
+  .footer h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1095px) {
+  nav ul li {
+    font-size: 1.3rem;
+  }
+  .footer h4 {
+    font-size: 1.2rem;
+  }
 }
