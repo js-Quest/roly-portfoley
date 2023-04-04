@@ -404,7 +404,7 @@ footer {
   }
 
   .left-container div {
-    display: block;
+    display: flex;
   }
 
   .text-right {
@@ -415,9 +415,9 @@ footer {
     height: 225px;
   }
 
-  /* .project-small-cards {
+  .project-small-cards {
     display: flex;
-  } */
+  }
 }
 
 /* for desktops */
