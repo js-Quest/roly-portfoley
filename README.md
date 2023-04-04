@@ -17,6 +17,10 @@ You can open the Chrome DevTools by pressing Command+Option+I (macOS) or Control
 
 You can also clone the repository and tinker around with the code on your local drive; feel free to have to fun with changing up the code!
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
