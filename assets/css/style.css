@@ -104,7 +104,7 @@ footer {
 .container {
   display: flex;
   flex: 0 0 80%;
-  max-width: 1280px;
+  /* max-width: 1280px; */
 }
 
 .left-container {
@@ -244,34 +244,9 @@ footer {
   display: block;
 }
 
-/* media queries font sizes */
+/* media queries */
 
-@media all and (max-width: 600px) {
-  .project-card-txtblock {
-    background-color: yellowgreen;
-  }
-}
-
-
-/* @media screen and (max-width: 481px) {
-  header ul {
-    width: 90%;
-  }
-
-  nav ul li {
-    font-size: 1.3rem;
-  }
-
-  .intro article h4 {
-    font-size: 1rem;
-  }
-
-  .footer h4 {
-    font-size: 1.2rem;
-  }
-} */
-
-/* @media screen and (min-width: 375px) {
+@media screen and (min-width: 374px) {
   header ul {
     width: 75%;
   }
@@ -294,20 +269,22 @@ footer {
 
   .left-container {
     flex: 0 1 90%:
-    
   }
-} */
+}
 
-/* @media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
   header ul {
-    width: 75%;
+    width: 90%;
   }
+
   nav ul li {
     font-size: 1.3rem;
   }
+
   .intro article h4 {
     font-size: 1rem;
   }
+
   .footer h4 {
     font-size: 1.2rem;
   }
@@ -319,21 +296,31 @@ footer {
   .small {
     display: none;
   }
-} */
 
-
-/* @media screen and (min-width: 769px) {
-  header ul {
-    width: 75%;
+  .container {
+    flex-direction: column;
   }
+}
+
+@media screen and (min-width: 769px) {
+  header ul {
+    width: 85%;
+  }
+
   nav ul li {
     font-size: 1.3rem;
   }
+
   .intro article h4 {
     font-size: 1.1rem;
   }
+
   .footer h4 {
     font-size: 1.2rem;
+  }
+
+  .container {
+    flex-direction: row;
   }
 }
 
@@ -341,37 +328,20 @@ footer {
   header ul {
     width: 60%;
   }
-  nav ul li {
-    font-size: 1.3rem;
-  }
-.intro article h4 {
-  font-size: 1rem;
-}
-  .footer h4 {
-    font-size: 1.2rem;
-  }
-} */
 
-/* @media screen and (max-width: 481px) {
-  header ul {
-    width: 75%;
-  }
   nav ul li {
     font-size: 1.3rem;
   }
+
   .intro article h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
+
   .footer h4 {
     font-size: 1.2rem;
   }
 
   .container {
-    flex-direction: column;
-    flex: 0 1 100%;
+    flex-direction: row;
   }
-  .left-container {
-    flex-direction: column;
-    flex: 0 1 90%;
-  }
-} */
+}
