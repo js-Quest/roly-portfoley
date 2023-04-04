@@ -231,7 +231,7 @@ footer {
 }
 
 /* media queries */
-/* for phones */
+/* for mobile phones */
 @media screen and (min-width: 374px) {
 
   header ul {
@@ -270,13 +270,13 @@ footer {
     font-size: .8rem;
   }
 
-  .large {
+  /* .large {
     display: block;
   }
 
   .small {
     display: none;
-  }
+  } */
 
   .container {
     flex-direction: column;
@@ -415,9 +415,9 @@ footer {
     height: 225px;
   }
 
-  .project-small-cards {
+  /* .project-small-cards {
     display: flex;
-  }
+  } */
 }
 
 /* for desktops */
@@ -438,17 +438,17 @@ footer {
     font-size: 1.8rem;
   }
 
-  .intro article h4 {
+  /* .intro article h4 {
     font-size: 1.1rem;
-  }
+  } */
 
-  .footer h4 {
+  /* .footer h4 {
     font-size: 1.2rem;
-  }
+  } */
 
-  .container {
+  /* .container {
     flex-direction: row;
-  }
+  } */
 
   .project-main-card {
     height: 250px;
