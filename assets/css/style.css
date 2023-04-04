@@ -28,7 +28,6 @@ a:hover {
 
 body {
   position: relative;
-  font-size: 1.2rem;
   background-color: var(--bisque);
   color: var(--dkgrey);
   display: flex;
@@ -42,17 +41,8 @@ header {
 }
 
 h1 {
-  font-size: 2.6rem;
   color: var(--white);
   text-align: right;
-}
-
-h2 {
-  font-size: 1.8rem;
-}
-
-h3 {
-  font-size: 1.7rem;
 }
 
 h4 {
@@ -62,9 +52,7 @@ h4 {
 header ul {
   display: flex;
   flex-direction: row;
-  width: 60%;
   justify-content: space-evenly;
-  font-size: 1.1rem;
 }
 
 nav {
@@ -77,6 +65,7 @@ nav {
 img {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 
 footer {
@@ -104,7 +93,7 @@ footer {
 .container {
   display: flex;
   flex: 0 0 80%;
-  /* max-width: 1280px; */
+  max-width: 1280px;
 }
 
 .left-container {
@@ -120,6 +109,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
+  margin-bottom: 1%;
 }
 
 .text-block-hero {
@@ -129,6 +119,7 @@ footer {
   background-color: var(--dkblue);
   color: var(--white);
   padding: 0.4rem;
+  border-radius: 10px;
 }
 
 .header-name {
@@ -136,6 +127,8 @@ footer {
   width: 350px;
   background-color: rgb(29, 97, 120);
   padding: .5% 2% .5% 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .intro {
@@ -151,6 +144,7 @@ footer {
   border-style: solid;
   border-width: 0.3rem;
   border-color: var(--dkblue);
+  border-radius: 20px;
   margin: 1.5%;
   height: 250px;
   width: 97%;
@@ -171,6 +165,8 @@ footer {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .project-small-cards {
@@ -184,9 +180,12 @@ footer {
   border-style: solid;
   border-width: 0.3rem;
   border-color: var(--dkblue);
+  border-radius: 20px;
   margin: 1.5%;
   position: relative;
   height: 150px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .project-card-txtblock {
@@ -197,6 +196,8 @@ footer {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .footer {
@@ -232,7 +233,7 @@ footer {
 
 /* media queries */
 /* for mobile phones */
-@media screen and (min-width: 374px) {
+@media screen and (min-width: 350px) {
 
   header ul {
     width: 98%;
@@ -251,7 +252,7 @@ footer {
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .intro {
@@ -269,14 +270,6 @@ footer {
   .footer h4 {
     font-size: .8rem;
   }
-
-  /* .large {
-    display: block;
-  }
-
-  .small {
-    display: none;
-  } */
 
   .container {
     flex-direction: column;
@@ -316,16 +309,8 @@ footer {
     font-size: 1.5rem;
   }
 
-  h2 {
-    font-size: .9rem;
-  }
-
-  .intro {
-    flex-direction: column;
-  }
-
-  .header-name {
-    width: 35%;
+  h3 {
+    font-size: 1.2rem;
   }
 
   .intro article h4 {
@@ -336,22 +321,8 @@ footer {
     font-size: 1.2rem;
   }
 
-  .large {
-    display: block;
-  }
-
-  .small {
-    display: none;
-  }
-
   .container {
     flex-direction: column;
-  }
-
-  .left-container div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 
   .text-right {
@@ -365,7 +336,7 @@ footer {
 
 }
 
-/* for larger tablets and desktops */
+/* for larger tablets, laptops, and some desktops */
 @media screen and (min-width: 768px) {
   header ul {
     width: 85%;
@@ -381,6 +352,10 @@ footer {
 
   h2 {
     font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
   }
 
   .header-name {
@@ -404,7 +379,8 @@ footer {
   }
 
   .left-container div {
-    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .text-right {
@@ -438,17 +414,9 @@ footer {
     font-size: 1.8rem;
   }
 
-  /* .intro article h4 {
-    font-size: 1.1rem;
-  } */
-
-  /* .footer h4 {
-    font-size: 1.2rem;
-  } */
-
-  /* .container {
-    flex-direction: row;
-  } */
+  h3 {
+    font-size: 1.7rem;
+  }
 
   .project-main-card {
     height: 250px;
