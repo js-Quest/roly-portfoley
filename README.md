@@ -11,6 +11,7 @@ None
 
 Visit the deployed link:
 
+[Portfolio_ Jessica Saddington.webm](https://user-images.githubusercontent.com/128349503/229683958-78c56f23-5d75-48e8-8221-48bb134ea737.webm)
 
 You can open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows) to check out the HTML and CSS coding.
 
