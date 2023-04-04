@@ -37,7 +37,7 @@ body {
 
 header {
   background-color: lightblue;
-  padding: 1% 2% 2.5% 0%;
+  padding: 1% 2% 1% 0%;
   flex: 1;
 }
 
@@ -232,19 +232,92 @@ footer {
   opacity: .5;
 }
 
-.large {
+/* .large {
   display: none;
 }
 
 .small {
   display: block;
 }
+ */
 
 /* media queries */
 
 @media screen and (min-width: 374px) {
+
   header ul {
+    width: 98%;
+  }
+
+  nav ul li {
+    font-size: .8rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: .9rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .header-name {
+    width: 35%;
+  }
+
+  .intro article h4 {
+    font-size: .9rem;
+  }
+
+  .footer h4 {
+    font-size: .8rem;
+  }
+
+  .large {
+    display: block;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .text-right {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .project-main-card {
+    height: 175px;
+  }
+
+  .project-small-cards {
+    display: block;
+  }
+
+  /* header ul {
     width: 75%;
+  }
+
+  h1 {
+    font-size: 1rem;
   }
 
   nav ul li {
@@ -265,16 +338,32 @@ footer {
 
   .left-container {
     flex: 0 1 90%:
-  }
+  } */
 }
 
 @media screen and (min-width: 481px) {
   header ul {
-    width: 90%;
+    width: 100%;
   }
 
   nav ul li {
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: .9rem;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .header-name {
+    width: 35%;
   }
 
   .intro article h4 {
@@ -296,15 +385,47 @@ footer {
   .container {
     flex-direction: column;
   }
+
+  .left-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .text-right {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .project-main-card {
+    height: 200px;
+  }
+
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   header ul {
     width: 85%;
   }
 
   nav ul li {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .header-name {
+    width: 350px;
+  }
+
+  .intro {
+    flex-direction: row;
   }
 
   .intro article h4 {
@@ -317,16 +438,40 @@ footer {
 
   .container {
     flex-direction: row;
+  }
+
+  .left-container div {
+    display: block;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .project-main-card {
+    height: 225px;
+  }
+
+  .project-small-cards {
+    display: flex;
   }
 }
 
 @media screen and (min-width: 1095px) {
   header ul {
-    width: 60%;
+    width: 75%;
   }
 
   nav ul li {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
   }
 
   .intro article h4 {
@@ -339,5 +484,9 @@ footer {
 
   .container {
     flex-direction: row;
+  }
+
+  .project-main-card {
+    height: 250px;
   }
 }
