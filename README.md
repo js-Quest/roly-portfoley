@@ -9,7 +9,7 @@ None
 
 ## Usage/Examples
 
-Visit the deployed link:
+Visit the deployed link: https://js-quest.github.io/roly-portfoley/
 
 [Portfolio_ Jessica Saddington.webm](https://user-images.githubusercontent.com/128349503/229683958-78c56f23-5d75-48e8-8221-48bb134ea737.webm)
 
