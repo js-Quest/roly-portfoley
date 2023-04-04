@@ -203,9 +203,7 @@ footer {
   display: flex;
   align-content: center;
   justify-content: space-around;
-  /* flex-direction: row; */
   flex: 0 1 80%;
-  /* flex-wrap: wrap; */
   margin: 2% 0;
 }
 
@@ -232,17 +230,8 @@ footer {
   opacity: .5;
 }
 
-/* .large {
-  display: none;
-}
-
-.small {
-  display: block;
-}
- */
-
 /* media queries */
-
+/* for phones */
 @media screen and (min-width: 374px) {
 
   header ul {
@@ -311,36 +300,9 @@ footer {
   .project-small-cards {
     display: block;
   }
-
-  /* header ul {
-    width: 75%;
-  }
-
-  h1 {
-    font-size: 1rem;
-  }
-
-  nav ul li {
-    font-size: 1.3rem;
-  }
-
-  .intro article h4 {
-    font-size: 1rem;
-  }
-
-  .footer h4 {
-    font-size: 1.2rem;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .left-container {
-    flex: 0 1 90%:
-  } */
 }
 
+/* for smaller tablets and large phones */
 @media screen and (min-width: 481px) {
   header ul {
     width: 100%;
@@ -403,6 +365,7 @@ footer {
 
 }
 
+/* for larger tablets and desktops */
 @media screen and (min-width: 768px) {
   header ul {
     width: 85%;
@@ -457,6 +420,7 @@ footer {
   }
 }
 
+/* for desktops */
 @media screen and (min-width: 1095px) {
   header ul {
     width: 75%;
