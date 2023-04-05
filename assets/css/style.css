@@ -184,8 +184,8 @@ footer {
   margin: 1.5%;
   position: relative;
   height: 150px;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .project-card-txtblock {
